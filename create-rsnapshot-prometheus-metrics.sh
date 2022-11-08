@@ -1,7 +1,9 @@
 #!/bin/sh
 #
+# https://github.com/Puppet-Finland/prometheus-rsnapshot-metrics
+#
 # Produce Prometheus backup metrics from rsnapshot data
-
+#
 usage() {
   echo "Usage: create-rsnapshot-prometheus-metrics.sh [-b backup directory] [-m marker file name] [-a maximum marker file age] [-d maximum search depth]"
 }
