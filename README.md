@@ -17,10 +17,10 @@ Script is invoked as follows:
 
 Sane defaults are provided for each of these settings:
 
-    * Latest backup directory (-b): /var/backups/rsnapshot/daily.0
-    * Marker file name (-m): .rsnapshot-marker
-    * Max backup age in days (-a): 2
-    * Max search depth (-d): 3
+* Latest backup directory (-b): /var/backups/rsnapshot/daily.0
+* Marker file name (-m): .rsnapshot-marker
+* Max backup age in days (-a): 2
+* Max search depth (-d): 3
 
 Any parameters that are inapplicable in your environment can be overridden on
 the command-line.
